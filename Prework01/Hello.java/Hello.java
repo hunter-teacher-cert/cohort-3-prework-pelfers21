@@ -1,5 +1,3 @@
-language = "bash"
-run = ""
 class Hello {
 
     public static void main(String[] args) {
