@@ -31,13 +31,12 @@ I wug. (Third Line)
 Hint: Start by describing in words what ping and baffle do when they are invoked.
 baffle invokes ("wug" to be printed) and ping ("." prints periods when called)
 b. c. Draw a stack diagram that shows the state of the program the first time ping is invoked.
-Stack Diagram
 
-    Main      No, I
-    baffle    wug
-    ping      .
-    zoop      You wugga
-
+   Stack Diagram
+  Ping()
+  Baffle()
+  Zoop()
+  Main()
 
 What happens if you invoke baffle(); at the end of the ping method- It keeps printing "wug." for several lines and then throws an error message "Exception in thread main.java.langStackOverflowError at java.base/java.io.FileOutStream.write(FileOutputStream.java:354)....with a few more lines of error messages then continually prints every other line: at Answer.ping(Answer.java:22) then at Answer.baffle(Answer.java:18) etc  
 
