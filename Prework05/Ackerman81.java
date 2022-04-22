@@ -1,19 +1,7 @@
-import java.util.Scanner;
 public class Ackerman81 {
 
 	// Assumes n >= 0, m >= 0
 	public static int ack(int m, int n) {
-    Scanner sc = new Scanner(System.in);
-//Integer m=sc.nextInt();
-//Integer n=sc.nextInt();
-  //System.out.println("Enter a number less than 5");
-
-System.out.println( "ack("+m+","+n+") = "+ ack(m, n) );
-  
-//Integer m=sc.nextInt();
-//Integer n=sc.nextInt();
-System.out.println( "ack("+m+","+n+") = "+ ack(m, n) );
-      
 		if (m == 0) {
 			return n + 1;
 		}
